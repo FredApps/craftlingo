@@ -1,0 +1,160 @@
+{
+  "schema_version": 1,
+  "bindings": [
+    {
+      "app": "wordcraft",
+      "id": "shared.action.save",
+      "source": "Save",
+      "context": "",
+      "allow_shared": true
+    },
+    {
+      "app": "wordcraft",
+      "id": "shared.action.undo",
+      "source": "Undo",
+      "context": "",
+      "allow_shared": true
+    },
+    {
+      "app": "wordcraft",
+      "id": "shared.action.redo",
+      "source": "Redo",
+      "context": "",
+      "allow_shared": true
+    },
+    {
+      "app": "wordcraft",
+      "id": "shared.action.copy",
+      "source": "Copy",
+      "context": "",
+      "allow_shared": true
+    },
+    {
+      "app": "wordcraft",
+      "id": "shared.action.cut",
+      "source": "Cut",
+      "context": "",
+      "allow_shared": true
+    },
+    {
+      "app": "wordcraft",
+      "id": "shared.action.cancel",
+      "source": "Cancel",
+      "context": "",
+      "allow_shared": true
+    },
+    {
+      "app": "wordcraft",
+      "id": "shared.action.close",
+      "source": "Close",
+      "context": "",
+      "allow_shared": true
+    },
+    {
+      "app": "wordcraft",
+      "id": "shared.action.apply",
+      "source": "Apply",
+      "context": "",
+      "allow_shared": true
+    },
+    {
+      "app": "wordcraft",
+      "id": "shared.action.print",
+      "source": "Print",
+      "context": "",
+      "allow_shared": true
+    },
+    {
+      "app": "wordcraft",
+      "id": "shared.action.confirm",
+      "source": "OK",
+      "context": "",
+      "allow_shared": true
+    },
+    {
+      "app": "wordcraft",
+      "id": "shared.action.browse_files",
+      "source": "Browse…",
+      "context": "",
+      "allow_shared": true
+    },
+    {
+      "app": "pdfcraft",
+      "id": "shared.action.save",
+      "source": "Save",
+      "context": "",
+      "allow_shared": true
+    },
+    {
+      "app": "pdfcraft",
+      "id": "shared.action.undo",
+      "source": "Undo",
+      "context": "",
+      "allow_shared": true
+    },
+    {
+      "app": "pdfcraft",
+      "id": "shared.action.redo",
+      "source": "Redo",
+      "context": "",
+      "allow_shared": true
+    },
+    {
+      "app": "pdfcraft",
+      "id": "shared.action.copy",
+      "source": "Copy",
+      "context": "",
+      "allow_shared": true
+    },
+    {
+      "app": "pdfcraft",
+      "id": "shared.action.cut",
+      "source": "Cut",
+      "context": "",
+      "allow_shared": true
+    },
+    {
+      "app": "pdfcraft",
+      "id": "shared.action.cancel",
+      "source": "Cancel",
+      "context": "",
+      "allow_shared": true
+    },
+    {
+      "app": "pdfcraft",
+      "id": "shared.action.close",
+      "source": "Close",
+      "context": "",
+      "allow_shared": true
+    },
+    {
+      "app": "pdfcraft",
+      "id": "shared.action.apply",
+      "source": "Apply",
+      "context": "",
+      "allow_shared": true
+    },
+    {
+      "app": "pdfcraft",
+      "id": "shared.action.print",
+      "source": "Print",
+      "context": "",
+      "allow_shared": true
+    },
+    {
+      "app": "pdfcraft",
+      "id": "shared.action.confirm",
+      "source": "OK",
+      "context": "",
+      "allow_shared": true
+    },
+    {
+      "app": "pdfcraft",
+      "id": "shared.action.browse_files",
+      "source": "Browse…",
+      "context": "",
+      "allow_shared": true
+    }
+  ],
+  "approvals": []
+}

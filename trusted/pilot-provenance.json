@@ -1,0 +1,211 @@
+[
+  {
+    "proposed_id": "shared.action.save",
+    "source": "Save",
+    "translation": "Guardar",
+    "locale": "es",
+    "context": "",
+    "meaning": "Save current document changes; not Save As.",
+    "status": "candidate_needs_trusted_review",
+    "wordcraft": {
+      "catalog_line": 792,
+      "catalog_url": "https://github.com/storytold/wordcraft/blob/eae242176108d328c5dd81fbc10370c51ab90706/crates/ui-egui/src/i18n/es.tsv#L792",
+      "usage_url": "https://github.com/storytold/wordcraft/blob/eae242176108d328c5dd81fbc10370c51ab90706/crates/ui-egui/src/dialogs.rs#L2443"
+    },
+    "pdfcraft": {
+      "catalog_line": 58,
+      "catalog_url": "https://github.com/storytold/pdfcraft/blob/924c4da4ac2879ac9107c6c82e20ac6be5570f0a/crates/ui-egui/src/i18n/es.tsv#L58",
+      "usage_url": "https://github.com/storytold/pdfcraft/blob/924c4da4ac2879ac9107c6c82e20ac6be5570f0a/crates/ui-egui/src/dialogs.rs#L1495"
+    }
+  },
+  {
+    "proposed_id": "shared.action.undo",
+    "source": "Undo",
+    "translation": "Deshacer",
+    "locale": "es",
+    "context": "",
+    "meaning": "Undo last undoable edit.",
+    "status": "candidate_needs_trusted_review",
+    "wordcraft": {
+      "catalog_line": 970,
+      "catalog_url": "https://github.com/storytold/wordcraft/blob/eae242176108d328c5dd81fbc10370c51ab90706/crates/ui-egui/src/i18n/es.tsv#L970",
+      "usage_url": "https://github.com/storytold/wordcraft/blob/eae242176108d328c5dd81fbc10370c51ab90706/crates/engine/src/cmd/edit.rs#L36"
+    },
+    "pdfcraft": {
+      "catalog_line": 65,
+      "catalog_url": "https://github.com/storytold/pdfcraft/blob/924c4da4ac2879ac9107c6c82e20ac6be5570f0a/crates/ui-egui/src/i18n/es.tsv#L65",
+      "usage_url": "https://github.com/storytold/pdfcraft/blob/924c4da4ac2879ac9107c6c82e20ac6be5570f0a/crates/engine/src/commands.rs#L194"
+    }
+  },
+  {
+    "proposed_id": "shared.action.redo",
+    "source": "Redo",
+    "translation": "Rehacer",
+    "locale": "es",
+    "context": "",
+    "meaning": "Redo previously undone edit.",
+    "status": "candidate_needs_trusted_review",
+    "wordcraft": {
+      "catalog_line": 735,
+      "catalog_url": "https://github.com/storytold/wordcraft/blob/eae242176108d328c5dd81fbc10370c51ab90706/crates/ui-egui/src/i18n/es.tsv#L735",
+      "usage_url": "https://github.com/storytold/wordcraft/blob/eae242176108d328c5dd81fbc10370c51ab90706/crates/engine/src/cmd/edit.rs#L53"
+    },
+    "pdfcraft": {
+      "catalog_line": 66,
+      "catalog_url": "https://github.com/storytold/pdfcraft/blob/924c4da4ac2879ac9107c6c82e20ac6be5570f0a/crates/ui-egui/src/i18n/es.tsv#L66",
+      "usage_url": "https://github.com/storytold/pdfcraft/blob/924c4da4ac2879ac9107c6c82e20ac6be5570f0a/crates/engine/src/commands.rs#L195"
+    }
+  },
+  {
+    "proposed_id": "shared.action.copy",
+    "source": "Copy",
+    "translation": "Copiar",
+    "locale": "es",
+    "context": "",
+    "meaning": "Copy selected content to clipboard; selected objects differ by app.",
+    "status": "candidate_needs_trusted_review",
+    "wordcraft": {
+      "catalog_line": 293,
+      "catalog_url": "https://github.com/storytold/wordcraft/blob/eae242176108d328c5dd81fbc10370c51ab90706/crates/ui-egui/src/i18n/es.tsv#L293",
+      "usage_url": "https://github.com/storytold/wordcraft/blob/eae242176108d328c5dd81fbc10370c51ab90706/crates/ui-egui/src/ribbon.rs#L755"
+    },
+    "pdfcraft": {
+      "catalog_line": 1827,
+      "catalog_url": "https://github.com/storytold/pdfcraft/blob/924c4da4ac2879ac9107c6c82e20ac6be5570f0a/crates/ui-egui/src/i18n/es.tsv#L1827",
+      "usage_url": "https://github.com/storytold/pdfcraft/blob/924c4da4ac2879ac9107c6c82e20ac6be5570f0a/crates/ui-egui/src/panels.rs#L1129"
+    }
+  },
+  {
+    "proposed_id": "shared.action.cut",
+    "source": "Cut",
+    "translation": "Cortar",
+    "locale": "es",
+    "context": "",
+    "meaning": "Cut selected content for clipboard transfer; not crop, trim, or split.",
+    "status": "candidate_needs_trusted_review",
+    "wordcraft": {
+      "catalog_line": 311,
+      "catalog_url": "https://github.com/storytold/wordcraft/blob/eae242176108d328c5dd81fbc10370c51ab90706/crates/ui-egui/src/i18n/es.tsv#L311",
+      "usage_url": "https://github.com/storytold/wordcraft/blob/eae242176108d328c5dd81fbc10370c51ab90706/crates/ui-egui/src/ribbon.rs#L754"
+    },
+    "pdfcraft": {
+      "catalog_line": 1826,
+      "catalog_url": "https://github.com/storytold/pdfcraft/blob/924c4da4ac2879ac9107c6c82e20ac6be5570f0a/crates/ui-egui/src/i18n/es.tsv#L1826",
+      "usage_url": "https://github.com/storytold/pdfcraft/blob/924c4da4ac2879ac9107c6c82e20ac6be5570f0a/crates/ui-egui/src/panels.rs#L1125"
+    }
+  },
+  {
+    "proposed_id": "shared.action.cancel",
+    "source": "Cancel",
+    "translation": "Cancelar",
+    "locale": "es",
+    "context": "",
+    "meaning": "Cancel pending dialog operation, not undo already committed changes.",
+    "status": "candidate_needs_trusted_review",
+    "wordcraft": {
+      "catalog_line": 222,
+      "catalog_url": "https://github.com/storytold/wordcraft/blob/eae242176108d328c5dd81fbc10370c51ab90706/crates/ui-egui/src/i18n/es.tsv#L222",
+      "usage_url": "https://github.com/storytold/wordcraft/blob/eae242176108d328c5dd81fbc10370c51ab90706/crates/ui-egui/src/dialogs.rs#L2441"
+    },
+    "pdfcraft": {
+      "catalog_line": 498,
+      "catalog_url": "https://github.com/storytold/pdfcraft/blob/924c4da4ac2879ac9107c6c82e20ac6be5570f0a/crates/ui-egui/src/i18n/es.tsv#L498",
+      "usage_url": "https://github.com/storytold/pdfcraft/blob/924c4da4ac2879ac9107c6c82e20ac6be5570f0a/crates/ui-egui/src/dialogs.rs#L1498"
+    }
+  },
+  {
+    "proposed_id": "shared.action.close",
+    "source": "Close",
+    "translation": "Cerrar",
+    "locale": "es",
+    "context": "",
+    "meaning": "Dismiss current dialog/view; do not imply cancel or discard.",
+    "status": "candidate_needs_trusted_review",
+    "wordcraft": {
+      "catalog_line": 268,
+      "catalog_url": "https://github.com/storytold/wordcraft/blob/eae242176108d328c5dd81fbc10370c51ab90706/crates/ui-egui/src/i18n/es.tsv#L268",
+      "usage_url": "https://github.com/storytold/wordcraft/blob/eae242176108d328c5dd81fbc10370c51ab90706/crates/ui-egui/src/dialogs.rs#L2116"
+    },
+    "pdfcraft": {
+      "catalog_line": 96,
+      "catalog_url": "https://github.com/storytold/pdfcraft/blob/924c4da4ac2879ac9107c6c82e20ac6be5570f0a/crates/ui-egui/src/i18n/es.tsv#L96",
+      "usage_url": "https://github.com/storytold/pdfcraft/blob/924c4da4ac2879ac9107c6c82e20ac6be5570f0a/crates/ui-egui/src/dialogs.rs#L1220"
+    }
+  },
+  {
+    "proposed_id": "shared.action.apply",
+    "source": "Apply",
+    "translation": "Aplicar",
+    "locale": "es",
+    "context": "",
+    "meaning": "Commit selected settings/value; does NOT promise the dialog stays open.",
+    "status": "candidate_needs_trusted_review",
+    "wordcraft": {
+      "catalog_line": 1775,
+      "catalog_url": "https://github.com/storytold/wordcraft/blob/eae242176108d328c5dd81fbc10370c51ab90706/crates/ui-egui/src/i18n/es.tsv#L1775",
+      "usage_url": "https://github.com/storytold/wordcraft/blob/eae242176108d328c5dd81fbc10370c51ab90706/crates/ui-egui/src/options.rs#L297"
+    },
+    "pdfcraft": {
+      "catalog_line": 500,
+      "catalog_url": "https://github.com/storytold/pdfcraft/blob/924c4da4ac2879ac9107c6c82e20ac6be5570f0a/crates/ui-egui/src/i18n/es.tsv#L500",
+      "usage_url": "https://github.com/storytold/pdfcraft/blob/924c4da4ac2879ac9107c6c82e20ac6be5570f0a/crates/ui-egui/src/comments.rs#L1791"
+    }
+  },
+  {
+    "proposed_id": "shared.action.print",
+    "source": "Print",
+    "translation": "Imprimir",
+    "locale": "es",
+    "context": "",
+    "meaning": "Start printing configured document/pages, not merely open print setup.",
+    "status": "candidate_needs_trusted_review",
+    "wordcraft": {
+      "catalog_line": 710,
+      "catalog_url": "https://github.com/storytold/wordcraft/blob/eae242176108d328c5dd81fbc10370c51ab90706/crates/ui-egui/src/i18n/es.tsv#L710",
+      "usage_url": "https://github.com/storytold/wordcraft/blob/eae242176108d328c5dd81fbc10370c51ab90706/crates/ui-egui/src/print_page.rs#L154"
+    },
+    "pdfcraft": {
+      "catalog_line": 520,
+      "catalog_url": "https://github.com/storytold/pdfcraft/blob/924c4da4ac2879ac9107c6c82e20ac6be5570f0a/crates/ui-egui/src/i18n/es.tsv#L520",
+      "usage_url": "https://github.com/storytold/pdfcraft/blob/924c4da4ac2879ac9107c6c82e20ac6be5570f0a/crates/ui-egui/src/print_ui.rs#L1232"
+    }
+  },
+  {
+    "proposed_id": "shared.action.confirm",
+    "source": "OK",
+    "translation": "Aceptar",
+    "locale": "es",
+    "context": "",
+    "meaning": "Confirm/apply dialog values and close; source label stays OK, not Accept.",
+    "status": "candidate_needs_trusted_review",
+    "wordcraft": {
+      "catalog_line": 627,
+      "catalog_url": "https://github.com/storytold/wordcraft/blob/eae242176108d328c5dd81fbc10370c51ab90706/crates/ui-egui/src/i18n/es.tsv#L627",
+      "usage_url": "https://github.com/storytold/wordcraft/blob/eae242176108d328c5dd81fbc10370c51ab90706/crates/ui-egui/src/dialogs.rs#L1629"
+    },
+    "pdfcraft": {
+      "catalog_line": 94,
+      "catalog_url": "https://github.com/storytold/pdfcraft/blob/924c4da4ac2879ac9107c6c82e20ac6be5570f0a/crates/ui-egui/src/i18n/es.tsv#L94",
+      "usage_url": "https://github.com/storytold/pdfcraft/blob/924c4da4ac2879ac9107c6c82e20ac6be5570f0a/crates/ui-egui/src/dialogs.rs#L678"
+    }
+  },
+  {
+    "proposed_id": "shared.action.browse_files",
+    "source": "Browse…",
+    "translation": "Examinar…",
+    "locale": "es",
+    "context": "",
+    "meaning": "Open file chooser; preserve trailing Unicode ellipsis.",
+    "status": "candidate_needs_trusted_review",
+    "wordcraft": {
+      "catalog_line": 1031,
+      "catalog_url": "https://github.com/storytold/wordcraft/blob/eae242176108d328c5dd81fbc10370c51ab90706/crates/ui-egui/src/i18n/es.tsv#L1031",
+      "usage_url": "https://github.com/storytold/wordcraft/blob/eae242176108d328c5dd81fbc10370c51ab90706/crates/ui-egui/src/backstage.rs#L368"
+    },
+    "pdfcraft": {
+      "catalog_line": 878,
+      "catalog_url": "https://github.com/storytold/pdfcraft/blob/924c4da4ac2879ac9107c6c82e20ac6be5570f0a/crates/ui-egui/src/i18n/es.tsv#L878",
+      "usage_url": "https://github.com/storytold/pdfcraft/blob/924c4da4ac2879ac9107c6c82e20ac6be5570f0a/crates/ui-egui/src/marks_ui.rs#L460"
+    }
+  }
+]

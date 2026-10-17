@@ -1,0 +1,86 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CraftLingo v1 catalog",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "locale",
+    "messages"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": 1
+    },
+    "locale": {
+      "type": "string",
+      "maxLength": 35,
+      "pattern": "^[A-Za-z]{2,8}(-[A-Za-z0-9]{1,8})*$"
+    },
+    "messages": {
+      "type": "array",
+      "maxItems": 10000,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "source",
+          "description",
+          "translations"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "maxLength": 120,
+            "pattern": "^[a-z][a-z0-9_]*(\\.[a-z][a-z0-9_]*)+$"
+          },
+          "source": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 32768
+          },
+          "description": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 32768
+          },
+          "translations": {
+            "type": "array",
+            "maxItems": 3,
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "scope",
+                "text",
+                "provenance"
+              ],
+              "properties": {
+                "scope": {
+                  "enum": [
+                    "shared",
+                    "wordcraft",
+                    "pdfcraft"
+                  ]
+                },
+                "text": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 32768
+                },
+                "provenance": {
+                  "enum": [
+                    "imported",
+                    "human",
+                    "ai"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

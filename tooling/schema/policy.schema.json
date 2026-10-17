@@ -1,0 +1,99 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CraftLingo v1 policy",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "bindings",
+    "approvals"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": 1
+    },
+    "bindings": {
+      "type": "array",
+      "maxItems": 20000,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "app",
+          "id",
+          "source",
+          "context",
+          "allow_shared"
+        ],
+        "properties": {
+          "app": {
+            "enum": [
+              "wordcraft",
+              "pdfcraft"
+            ]
+          },
+          "id": {
+            "type": "string",
+            "maxLength": 120,
+            "pattern": "^[a-z][a-z0-9_]*(\\.[a-z][a-z0-9_]*)+$"
+          },
+          "source": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 32768
+          },
+          "context": {
+            "type": "string",
+            "maxLength": 128
+          },
+          "allow_shared": {
+            "type": "boolean"
+          }
+        }
+      }
+    },
+    "approvals": {
+      "type": "array",
+      "maxItems": 30000,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "locale",
+          "scope",
+          "sha256",
+          "reviewed_by"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "maxLength": 120,
+            "pattern": "^[a-z][a-z0-9_]*(\\.[a-z][a-z0-9_]*)+$"
+          },
+          "locale": {
+            "type": "string",
+            "maxLength": 35,
+            "pattern": "^[A-Za-z]{2,8}(-[A-Za-z0-9]{1,8})*$"
+          },
+          "scope": {
+            "enum": [
+              "shared",
+              "wordcraft",
+              "pdfcraft"
+            ]
+          },
+          "sha256": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{64}$"
+          },
+          "reviewed_by": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 32768
+          }
+        }
+      }
+    }
+  }
+}
